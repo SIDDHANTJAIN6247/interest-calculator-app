@@ -1,0 +1,20 @@
+# Commands to run after creating GitHub repository
+
+# Replace 'yourusername' and 'repository-name' with your actual GitHub username and desired repository name
+
+# Add the remote origin (run this after creating the GitHub repository)
+git remote add origin https://github.com/yourusername/repository-name.git
+
+# Ensure you're on the main branch
+git branch -M main
+
+# Push your code to GitHub
+git push -u origin main
+
+# Your project is now ready for GitHub Pages deployment!
+# To enable GitHub Pages:
+# 1. Go to your repository on GitHub
+# 2. Click Settings
+# 3. Scroll down to Pages
+# 4. Under Source, select "GitHub Actions"
+# 5. Look for "Static HTML" or "Node.js" workflow and configure it
